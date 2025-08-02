@@ -11,21 +11,18 @@ pip install beautifulsoup4
 pip install python-telegram-bot
 pip install openpyxl
 
- 
 Что бы запустить бот требуется запустить:
 bot.py
 
- 
-
-Перед запуском в auth.py поменять данные от аккаунта: 
-
+Перед запуском в auth.py поменять данные от аккаунта:
 https://tennis-score.pro/login/
 EMAIL = 'логин'
 PASSWORD = 'пароль'
+
 Далее в bot.py поменять данные от бота и паблика:
 TELEGRAM_BOT_TOKEN = "ТОКЕН_БОТА"
 TELEGRAM_CHANNEL_ID = "@пабликТГ"
- 
+
 Описание файлов:
 auth.py - файл авторизации, далее сохранит куки и больше не потребуется авторизоваться
 bot.py - тело самого бота
